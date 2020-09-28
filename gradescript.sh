@@ -7,7 +7,7 @@ function usage {
     exit 0
 }
 
-TESTS=("test0" "test1" "test2" "test3" "test4" "test5" "test6")
+TESTS=("test0" "test1" "test2" "test3" "test4" "test5" "test6" "test7" "test8" "test9")
 TEST_ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 if [ $# -lt 1 ]; then
